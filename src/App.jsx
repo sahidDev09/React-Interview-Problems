@@ -1,7 +1,11 @@
 /* eslint-disable no-unused-vars */
 import Counter from "./problems/Counter";
+import Fetch from "./problems/Fetch/Fetch";
+
 import List from "./problems/List";
 import OneHW from "./problems/OneHW";
+import Timer from "./problems/Timer";
+import Todo from "./problems/Todo";
 import Toggle from "./problems/Toggle";
 import UserInputRealtime from "./problems/UserInputRealtime";
 
@@ -14,7 +18,10 @@ function App() {
           <Counter /> */}
           {/* <UserInputRealtime /> */}
           {/* <List/> */}
-          <Toggle />
+          {/* <Toggle /> */}
+          {/* <Fetch /> */}
+          {/* <Timer /> */}
+          <Todo />
         </div>
       </div>
     </>
